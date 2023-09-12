@@ -1,0 +1,60 @@
+1. Qual a relação que coesão possui com as responsabilidades de uma classe?
+
+R: Classe e coesão no software estão intimamente conectadas em relação às responsabilidades.
+Quanto mais coesa uma classe, mais específica e concentrada é sua responsabilidade. 
+Isso ajuda a tornar o código mais organizado e legível, facilitando a manutenção. 
+Classes coesas agrupam funcionalidades relacionadas, permitindo a reutilização de código e tornando os testes mais fáceis.
+Além disso, elas tendem a ter menos dependências com outras classes, reduzindo a complexidade.
+Em resumo, a coesão é fundamental para definir o que uma classe faz e afeta positivamente a qualidade do design de software.
+
+
+2. Contextualize o conceito de coesão de acordo com as fontes abaixo:
+
+R: A coesão, conforme discutida em fontes como "Clean Code" e "Orientação a Objetos e SOLID para Ninjas Projetando classes
+flexíveis," refere-se à medida em que os membros de uma classe de software estão relacionados e 
+se concentram em uma única responsabilidade bem definida.
+Isso está alinhado com o Princípio da Responsabilidade Única (SRP), onde uma classe deve ter apenas uma razão para mudar.
+A coesão implica que uma classe deve ser especializada e focada em uma tarefa específica, 
+evitando sobrecarga de funcionalidades não relacionadas.
+Em resumo, a coesão ajuda a criar classes mais claras, focadas e manuteníveis, contribuindo para um design de software eficaz.
+
+
+6. Explique com suas palavras o que é o acoplamento entre classes.
+
+R: O acoplamento entre classes é um conceito fundamental na programação orientada a objetos (POO)
+e se refere à medida da dependência ou interligação entre diferentes classes em um sistema de software. 
+Em termos simples, ele descreve como as classes estão conectadas umas às outras e até que ponto elas dependem
+umas das outras para funcionar corretamente. Entender o acoplamento entre classes é crucial para desenvolver sistemas de 
+software robustos e flexíveis. Quando as classes estão altamente acopladas,
+ou seja, fortemente dependentes umas das outras, 
+qualquer mudança em uma classe pode ter um efeito cascata em outras classes, tornando o sistema difícil 
+de manter e modificar. Por outro lado, um baixo acoplamento, ou seja, classes com poucas dependências entre si, 
+torna o sistema mais flexível e fácil de adaptar a novos requisitos.
+
+
+8. Por que dizemos que o princípio ”Tell, don’t ask” mitiga problema de acoplamento.
+
+R: O princípio "Tell, don't ask" (ou "Diga, não pergunte", em português) é uma diretriz de design de software que ajuda a
+mitigar problemas de acoplamento entre classes ou objetos. Ele se baseia na ideia de que um objeto deve comunicar suas 
+intenções diretamente a outros objetos, em vez de solicitar informações e tomar decisões com base nas respostas.O objetivo
+principal desse princípio é promover a coesão e reduzir o acoplamento entre objetos, 
+o que leva a um código mais flexível, de fácil manutenção e menos propenso a erros. 
+
+
+9. É possivel zerar o acoplamento em um software simples ou complexo? Justifique.
+
+R: Em teoria, é possível zerar o acoplamento em um software, mas essa meta é praticamente inatingível na prática, 
+especialmente em sistemas complexos. O acoplamento é uma medida da dependência entre diferentes 
+componentes (classes, módulos, objetos, etc.) de um software. Quando dizemos que o acoplamento é zero, 
+estamos indicando que esses componentes são totalmente independentes uns dos outros, o que é extremamente raro de acontecer 
+em sistemas reais.
+
+
+10. O encapsulamento também mitiga o acoplamento alto? Discuta o exemplo da
+página 7 do artigo Coesão e Acoplamento em Sistemas Orientados a Objetos.
+
+
+R: Sim, o encapsulamento é uma técnica que pode ajudar a mitigar o acoplamento alto em sistemas orientados a objetos. 
+O encapsulamento é um dos princípios fundamentais da programação orientada a objetos (POO) e envolve o agrupamento de dados 
+(atributos) e comportamento (métodos) relacionados em uma única unidade, ou seja, em uma classe. 
+Isso tem um impacto direto no controle das interações entre diferentes partes do sistema e, portanto, no nível de acoplamento.
